@@ -17,7 +17,7 @@ its an application is responsble for delivering foods from several Resturants to
 
 # Properties of Application
 
-- beautiful UI ( +30 screens )
+- beautiful UI ( +20 screens )
 - Responsive
 - Registration and Login
 - Add Current Location

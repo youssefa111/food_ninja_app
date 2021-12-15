@@ -33,23 +33,17 @@ its an application is responsble for delivering foods from several Resturants to
 
 # Screenshots
 
-<img src = "screenshots/1.jpeg" height="400" width="200">    <img src = "screenshots/2.jpeg" height="400" width="200">    <img src = "screenshots/3.jpeg" height="400" width="200"> <img src = "screenshots/4.jpeg" height="400" width="200">
+<img src = "screenshots/1.jpeg" height="400" width="200">    <img src = "screenshots/2.jpeg" height="400" width="200">    <img src = "screenshots/3.jpeg" height="400" width="200">   <img src = "screenshots/4.jpeg" height="400" width="200">  <img src = "screenshots/5.jpeg" height="400" width="200">
 
 
-<img src = "screenshots/4.jpeg" height="400" width="200">    <img src = "screenshots/5.jpeg" height="400" width="200">   <img src = "screenshots/6.jpeg" height="400" width="200"> 
+<img src = "screenshots/6.jpeg" height="400" width="200">   <img src = "screenshots/7.png" height="400" width="200">   <img src = "screenshots/8.png" height="400" width="200">    <img src = "screenshots/9.png" height="400" width="200"> <img src = "screenshots/10.PNG" height="400" width="200">
 
 
-<img src = "screenshots/7.png" height="400" width="200">   <img src = "screenshots/8.png" height="400" width="200">    <img src = "screenshots/9.png" height="400" width="200"> 
+<img src = "screenshots/11.jpeg" height="400" width="200">    <img src = "screenshots/12.jpeg" height="400" width="200">   <img src = "screenshots/13.jpeg" height="400" width="200">   <img src = "screenshots/14.jpeg" height="400" width="200">    <img src = "screenshots/15.jpeg" height="400" width="200">
 
 
-<img src = "screenshots/10.PNG" height="400" width="200">   <img src = "screenshots/11.jpeg" height="400" width="200">    <img src = "screenshots/12.jpeg" height="400" width="200"> 
 
-
-<img src = "screenshots/13.jpeg" height="400" width="200">   <img src = "screenshots/14.jpeg" height="400" width="200">    <img src = "screenshots/15.jpeg" height="400" width="200">
-
-<img src = "screenshots/16.jpeg" height="400" width="200">   <img src = "screenshots/17.jpeg" height="400" width="200">    <img src = "screenshots/18.jpeg" height="400" width="200"> 
-
-<img src = "screenshots/19.jpeg" height="400" width="200">   <img src = "screenshots/20.jpeg" height="400" width="200">
+<img src = "screenshots/16.jpeg" height="400" width="200">   <img src = "screenshots/17.jpeg" height="400" width="200">    <img src = "screenshots/18.jpeg" height="400" width="200">  <img src = "screenshots/19.jpeg" height="400" width="200">   <img src = "screenshots/20.jpeg" height="400" width="200">
 
 
 

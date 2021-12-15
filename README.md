@@ -1,16 +1,51 @@
-# food_ninja_app
+# Food Ninja Application ( In Development )
 
-A new Flutter project.
+its an application is responsble for delivering foods from several Resturants to the users and help them to get more experience about the available various fast foods around them.
 
-## Getting Started
+# Technologies
 
-This project is a starting point for a Flutter application.
+- Flutter to make Cross-platform application for all users ( ios - android )
+- Bloc ( State Managment && Architecture pattern )
+- Firebase Auth - Firebase Firestore - Firebase Firestorage
+- Shared preference
+- location packages
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# Properties of Application
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- beautiful UI ( +30 screens )
+- Responsive
+- Registration and Login
+- Add Current Location
+- Phone number verfication
+- User Profile
+
+
+
+# Under Development
+
+- Login with Google & Facebook
+- Dashboard for admin to control restaurants and menus
+- chat user with application's employee
+- connect the UI with Firebase (as Backend)
+
+
+
+# Screenshots
+
+<img src = "screenshots/1.jpg" height="400" width="200">    <img src = "screenshots/2.jpg" height="400" width="200">    <img src = "screenshots/3.jpg" height="400" width="200"> 
+
+
+<img src = "screenshots/4.jpg" height="400" width="200">    <img src = "screenshots/5.jpg" height="400" width="200">   <img src = "screenshots/14.jpg" height="400" width="200"> 
+
+
+<img src = "screenshots/15.jpeg" height="400" width="200">   <img src = "screenshots/6.jpg" height="400" width="200">    <img src = "screenshots/7.jpg" height="400" width="200"> 
+
+
+<img src = "screenshots/8.jpg" height="400" width="200">   <img src = "screenshots/9.jpeg" height="400" width="200">    <img src = "screenshots/10.jpg" height="400" width="200"> 
+
+
+<img src = "screenshots/11.jpg" height="400" width="200">   <img src = "screenshots/12.jpg" height="400" width="200">    <img src = "screenshots/13.jpg" height="400" width="200">
+
+
+

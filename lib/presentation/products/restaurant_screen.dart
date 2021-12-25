@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/painting.dart';
-import 'package:flutter/rendering.dart';
+
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:food_ninja_app/data/fake_data.dart';
 import 'package:food_ninja_app/helper/constants/constants.dart';

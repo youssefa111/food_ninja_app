@@ -10,7 +10,7 @@ class UserData {
   bool isPhoneVerfied;
   bool isPremiumAcc;
   List<String>? vouchersList;
-  List<MenuItem>? favoriteList;
+  List<MenuItemModel>? favoriteList;
   String? visaNumber;
   String? location;
   String? profilePhotoUrl;
@@ -59,8 +59,8 @@ class UserData {
           ? List<String>.from(map['vouchersList'])
           : null,
       favoriteList: map['favoriteList'] != null
-          ? List<MenuItem>.from(
-              map['favoriteList']?.map((x) => MenuItem.fromMap(x)))
+          ? List<MenuItemModel>.from(
+              map['favoriteList']?.map((x) => MenuItemModel.fromMap(x)))
           : null,
       visaNumber: map['visaNumber'],
       location: map['location'],

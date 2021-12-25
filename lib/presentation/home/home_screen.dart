@@ -36,14 +36,14 @@ class HomeScreen extends StatelessWidget {
                 ),
                 const Spacer(),
                 InkWell(
-                  onTap: () => pushNewScreenWithRouteSettings(
-                    context,
-                    settings:
-                        const RouteSettings(name: exploreRestaurantsScreen),
-                    screen: const ExploreResturantsScreen(),
-                    withNavBar: true,
-                    pageTransitionAnimation: PageTransitionAnimation.cupertino,
-                  ),
+                  onTap: () {
+                    pushNewScreenWithRouteSettings(
+                      context,
+                      settings:
+                          const RouteSettings(name: exploreRestaurantsScreen),
+                      screen: const ExploreResturantsScreen(),
+                    );
+                  },
                   child: Text(
                     'View More',
                     style: TextStyle(color: thirdColor, fontSize: 12.sp),

@@ -1,9 +1,16 @@
+import 'package:food_ninja_app/data/models/menu_item.dart';
 import 'package:food_ninja_app/helper/components/components.dart';
 import 'package:food_ninja_app/presentation/cart/cart_screen.dart';
 import 'package:food_ninja_app/presentation/chat/chats_list_screen.dart';
 import 'package:food_ninja_app/presentation/products/restaurant_screen.dart';
 import 'package:food_ninja_app/presentation/profile/profile_screen.dart';
 
+import 'models/restaurant.dart';
+
+late RestaurantModel restaurant;
+late List<RestaurantModel> restaurantList = [];
+late MenuItemModel menuItemModel;
+late List<MenuItemModel> menuItemModelList = [];
 //======================== Resutarnt Container List ===================================================
 var resturantList = const [
   RestaurantContainer(

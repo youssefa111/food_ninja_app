@@ -2,6 +2,7 @@ import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:food_ninja_app/presentation/authentication/login/login_screen.dart';
@@ -19,7 +20,10 @@ Future<void> main() async {
   await Firebase.initializeApp();
   await CacheHelper.init();
   Bloc.observer = MyBlocObserver();
-
+  SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+    DeviceOrientation.portraitDown,
+  ]);
   // start codes
   Widget startWidget;
   dynamic onBoarding = await CacheHelper.getData(key: "onBoarding");

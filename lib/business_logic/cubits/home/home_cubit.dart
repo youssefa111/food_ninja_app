@@ -1,5 +1,11 @@
 import 'package:bloc/bloc.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flash/flash.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:food_ninja_app/data/fake_data.dart';
+import 'package:food_ninja_app/data/models/restaurant.dart';
 import 'package:meta/meta.dart';
 
 part 'home_state.dart';
@@ -12,14 +18,26 @@ class HomeCubit extends Cubit<HomeState> {
 //==================================== Add_Data_Section =================================================
   void addNewRestaurant() {}
   void addNewMenuItem() {}
-  void addRateRestaurant() {}
-  void addRateMenuItem() {}
-  void addLikeRestaurant() {}
-  void addLikeMenuItem() {}
-  void addReview() {}
 //==================================== Get_Data_Section =================================================
   void getHotDealsData() {}
-  void getNearestRestaurantsData() {}
+  Future<void> getNearestRestaurantsData(context) async {
+    try {
+      emit(RestaurantsDataloadingState());
+      QuerySnapshot querySnapshot = await FirebaseFirestore.instance
+          .collection('restaurants')
+          .orderBy('restaurantID', descending: false)
+          .get();
+
+      querySnapshot.docs.map((e) {
+        Map<String, dynamic> data = e.data() as Map<String, dynamic>;
+        restaurantList.add(RestaurantModel.fromMap(data));
+      });
+      emit(RestaurantsDataSucessfullyState());
+    } catch (e) {
+      emit(RestaurantsDataErrorState(e.toString())..showError(context));
+    }
+  }
+
   void getPopularRestaurantsData() {}
   void getPopularMenuData() {}
 }

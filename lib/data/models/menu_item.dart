@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-class MenuItem {
+class MenuItemModel {
   final int menuItemID;
   final int restaurantID;
   final String imagePath;
@@ -12,7 +12,7 @@ class MenuItem {
   final int ordersNum;
   final double rate;
 
-  MenuItem({
+  MenuItemModel({
     required this.menuItemID,
     required this.restaurantID,
     required this.imagePath,
@@ -40,8 +40,8 @@ class MenuItem {
     };
   }
 
-  factory MenuItem.fromMap(Map<String, dynamic> map) {
-    return MenuItem(
+  factory MenuItemModel.fromMap(Map<String, dynamic> map) {
+    return MenuItemModel(
       menuItemID: map['menuItemID']?.toInt() ?? 0,
       restaurantID: map['restaurantID']?.toInt() ?? 0,
       imagePath: map['imagePath'] ?? '',
@@ -57,6 +57,6 @@ class MenuItem {
 
   String toJson() => json.encode(toMap());
 
-  factory MenuItem.fromJson(String source) =>
-      MenuItem.fromMap(json.decode(source));
+  factory MenuItemModel.fromJson(String source) =>
+      MenuItemModel.fromMap(json.decode(source));
 }
